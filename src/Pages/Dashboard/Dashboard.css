@@ -1,0 +1,8 @@
+
+.parent_class{
+    position: relative;
+}
+.child_class{
+    position: absolute;
+    bottom: 0px;
+}

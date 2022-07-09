@@ -1,8 +1,10 @@
 
-.parent_class{
+.top{
     position: relative;
 }
-.child_class{
+.bottom{
     position: absolute;
-    bottom: 0px;
+    top: 50%;
+    left: 25%;
+    transition: translate(-50%,-50%)
 }
