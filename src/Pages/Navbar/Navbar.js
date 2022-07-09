@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='md:hidden'>
+        <div className='lg:hidden'>
             <div class="navbar bg-black text-white font-semibold">
                 <div class="flex-1 ">
                     <h1 className='mx-auto text-xl font-bold font-serif'>Md. Abu Taher Sarker</h1>
