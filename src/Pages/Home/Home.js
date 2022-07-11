@@ -6,7 +6,6 @@ import Typewriter from 'typewriter-effect';
 const Home = () => {
     return (
         <div className='top' data-aos="zoom-in"
-        data-aos-easing="ease-in-out"
         >
             <img style={{ height: "100vh", width: "100vw" }} src={img_1} alt="" />
             <div className='bottom font-serif'>
