@@ -14,7 +14,7 @@ const Dashboard = () => {
         <div className=''>
             <div class="drawer drawer-mobile">
             <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
-            <div class="drawer-content flex flex-col ">
+            <div style={{background:"#2c2d2f"}} class="drawer-content flex flex-col ">
                 {/* <!-- Page content here --> */}
                 <Navbar/>
                 <Outlet/>

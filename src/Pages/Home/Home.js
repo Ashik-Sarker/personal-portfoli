@@ -5,7 +5,9 @@ import Typewriter from 'typewriter-effect';
 
 const Home = () => {
     return (
-        <div className='top'>
+        <div className='top' data-aos="zoom-in"
+        data-aos-easing="ease-in-out"
+        >
             <img style={{ height: "100vh", width: "100vw" }} src={img_1} alt="" />
             <div className='bottom font-serif'>
                 <h1 className='text-3xl md:text-5xl text-white font-bold'>Abu Taher<span className='text-secondary'> Sarker</span></h1>

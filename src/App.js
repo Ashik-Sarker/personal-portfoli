@@ -12,7 +12,6 @@ import Dashboard from './Pages/Dashboard/Dashboard';
 function App() {
   return (
     <div>
-      {/* <Home /> */}
       <Routes>
         <Route path='/' element={<Dashboard />}>
           <Route index element={<Home />}></Route>
