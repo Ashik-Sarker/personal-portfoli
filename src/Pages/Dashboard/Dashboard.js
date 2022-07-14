@@ -1,7 +1,8 @@
 import React from 'react';
 import './Dashboard.css'
 import { Link, Outlet } from 'react-router-dom';
-import image1 from '../../Images/Home/mf-avatar.svg';
+// import image1 from '../../Images/Home/mf-avatar.svg';
+import image1 from '../../Assets/images/ashik.png'
 import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson, BsEnvelope,BsFacebook,BsTwitter,BsGithub,BsLinkedin,BsYoutube } from "react-icons/bs";
 import { IoDocumentTextOutline } from "react-icons/io5";

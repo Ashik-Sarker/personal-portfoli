@@ -1,6 +1,8 @@
-import logo from './logo.svg';
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import './App.css';
-import Home from './Pages/Home/Home';
+import Home from './Pages/Home/Home'; 
 import { Route, Routes } from 'react-router-dom';
 import AboutMe from './Pages/AboutMe/AboutMe';
 import Resume from './Pages/Resume/Resume';

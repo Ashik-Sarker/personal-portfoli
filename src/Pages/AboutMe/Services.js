@@ -30,14 +30,15 @@ const Services = () => {
     ]
     return (
         <div className='text-white mt-16'>
-            <div style={{ width: "160px" }}  className='flex mx-auto'>
+            <div style={{ width: "160px" }}  className='flex md:mx-auto'>
                 <div className='border h-3 mt-7 border-secondary'></div>
                 <div className=" font-serif"><h1 className='text-3xl text-center border-b-2 border-secondary px-3 pb-1'>SERVICES</h1></div>
                 <div className='border h-3 mt-7 border-secondary'></div>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-4 gap-4 mt-16 text-center'>
+            <div className='grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-4 mt-16 text-center'>
                 {
-                    services.map(service => <div className=' p-4 shadow-2xl border-b border-secondary'>
+                    services.map(service => <div
+                    className=' p-4 shadow-2xl border-b border-secondary'>
                         <div className='mb-4'>
                             <img className='mx-auto' src={service.icon} alt="" />
                         </div>
